@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100
+}
+
+th, td{
+  @apply bg-white !important;
+  @apply shadow !important;
+  /* @apply shadow !important; */
+  color: #333;
+  
+  /* background: rgba(255, 166, 0, 0.9) !important; */
+}
+
+@media (max-width: 1000px) {
+  
+}
